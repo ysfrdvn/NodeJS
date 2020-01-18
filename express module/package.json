@@ -1,0 +1,23 @@
+{
+  "name": "merhaba-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "merhaba-express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon merhaba-express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "^4.17.1",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
